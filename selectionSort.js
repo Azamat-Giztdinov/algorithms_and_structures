@@ -1,5 +1,3 @@
-const array = [3843, 23, 43, -1, 293, 2, 454, -33, 0, 322, 5, 7, 20, -90];
-
 function selectionSort(array) {
     const size = array.length;
     for (let i = 0; i < size; i++) {
@@ -13,5 +11,3 @@ function selectionSort(array) {
     }
     return array
 }
-
-console.log(selectionSort(array));
